@@ -1,0 +1,42 @@
+{
+  "name": "quick-hello-es6",
+  "version": "1.0.0",
+  "private": true,
+  "description": "What's new in next generation of JavaScript (ES-Next) 🚀 ..",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:3imed-jaberi/quick-hello-es6.git"
+  },
+  "scripts": {
+    "lint": "eslint ./src"
+  },
+  "keywords": [
+    "javascript",
+    "ecmascript",
+    "js",
+    "es6",
+    "v8",
+    "es-next"
+  ],
+  "author": {
+    "name": "imed jaberi",
+    "email": "imed-jaberi@outlook.com",
+    "url": "https://3imed-jaberi.com"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "eslint": "^7.19.0",
+    "eslint-config-standard": "^16.0.2",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^4.3.1",
+    "eslint-plugin-standard": "^5.0.0"
+  },
+  "enignes": {
+    "node": ">= 12.0.0"
+  },
+  "bugs": {
+    "url": "git+https://github.com/3imed-jaberi/quick-hello-es6/issues"
+  },
+  "homepage": "https://github.com/3imed-jaberi/quick-hello-es6#readme"
+}
