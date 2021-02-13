@@ -15,7 +15,7 @@ const sayHelloWorld3 = () => {
 // default function args
 
 const sayHello = (param = 'World ********* ') => {
-  console.log('Hello '+ param +' !')
+  console.log('Hello ' + param + ' !')
 }
 
 sayHello()

@@ -1,14 +1,14 @@
 // promise
 const fetch = () => {
   return new Promise((resolve, reject) => {
-    // traitment ... 
-    let ok = false
+    // traitment ...
+    const ok = false
     if (ok) {
       resolve({
-        "userId": 1,
-        "id": 1,
-        "title": "delectus aut autem",
-        "completed": false
+        userId: 1,
+        id: 1,
+        title: 'delectus aut autem',
+        completed: false
       }) // success
     } else {
       reject(new Error('something bad ...')) // failed

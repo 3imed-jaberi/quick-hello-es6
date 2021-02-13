@@ -18,7 +18,7 @@
 
 // nested
 const func = (object) => {
-  const { 
+  const {
     // nested object
     content: { title },
     techs: [html],
@@ -31,7 +31,7 @@ const func = (object) => {
   console.log(nestedTechsTitle)
 }
 
-func({ 
+func({
   branch: 'fron-end',
   techs: ['html', 'css', 'js', 'react.js', 'koa.js'],
   nestedTechs: [{ title: 'Hello World !!' }],

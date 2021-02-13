@@ -15,10 +15,10 @@
 
 // new style
 const anyAtt = Symbol['@@xxxprivate-att']
-const anyAtt2 = Symbol['xcfsdqklhdslkvgdhsbensg']
+const anyAtt2 = Symbol['@@xcfsdqklhdslkvgdhsbensg']
 
 class Person {
-  constructor() {
+  constructor () {
     this.name = 'formalab'
     this[anyAtt] = 'any'
   }
@@ -27,7 +27,7 @@ class Person {
   //   return this.name
   // }
 
-  get getName() {
+  get getName () {
     return this.name
   }
 
